@@ -69,7 +69,7 @@ public class Hangmangui {
                             wort1[i] = wortplatzhalter;
                            wortfeld.setText("");
                         }
-
+//ddd
 
 
 
