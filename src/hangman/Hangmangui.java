@@ -15,23 +15,29 @@ public class Hangmangui {
     private JTextField kanister;
     private JLabel Fv;
     String wort;
+    int fehleranzahl;
  String[] wort1;
 
 
 
     public Hangmangui() {
 
-      //  wort =String.valueOf(ratefeld.getText());
-      //  wort1= new String[wort.length()];
+        //  wort =String.valueOf(ratefeld.getText());
+        //  wort1= new String[wort.length()];
         startButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               wort=String.valueOf(ratefeld.getText());
-                wort1= new String[wort.length()];
-                for(int i=0;i<wort.length();i++)
-                {wort1[i]=" _ " ;}
+                wortfeld.setText("");
+                wort = String.valueOf(ratefeld.getText());
+                wort1 = new String[wort.length()];
+                for (int i = 0; i < wort.length(); i++) {
+                    wort1[i] = " _ ";
+                }
                 ratefeld.setText("");
-                for(int i=0;i<wort.length();i++){wortfeld.setText(wortfeld.getText()+wort1[i]);;}
+                for (int i = 0; i < wort.length(); i++) {
+                    wortfeld.setText(wortfeld.getText() + wort1[i]);
+                    ;
+                }
 
             }
         });
@@ -189,6 +195,9 @@ public class Hangmangui {
             }
         });
     }
+
+
+
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Hangmangui");
