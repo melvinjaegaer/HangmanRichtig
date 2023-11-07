@@ -14,6 +14,7 @@ public class Hangmangui {
     private JButton zufallstart;
     private JTextField kanister;
     private JLabel Fv;
+    private JLabel Label;
     String wort;
     int fehleranzahl;
  String[] wort1;
@@ -89,55 +90,55 @@ public class Hangmangui {
                     wortfeld.setText(wort);
                 }
                 if(fehleranzahl==1){
-                    Feld.setText ("\n\n\n\n\n\n\n\t\t\t\n\n\n\n \n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\n\t\t\n\n\n\n \n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==2){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t\n\n\n\n \n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t\n\n\n\n \n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==3){
-                    Feld.setText ("\n\n\n\n\n\t\t\t\n\n\n\n \n                              |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\t\t\n\n\n\n \n                              |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==4){
-                    Feld.setText ("\n\n\n\n\n\t\t\t\n\n\n \n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\t\t\n\n\n \n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==5){
-                    Feld.setText ("\n\n\n\n\n\t\t\t\n\n \n                              |\n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\t\t\n\n \n                              |\n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==6){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                              |\n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                              |\n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==7){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                     |        |\n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                     |        |\n                              |\n                              |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==8){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                              |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                              |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==9){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                     |        |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                     |        |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==10){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / |        |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / |        |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==11){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / | \\      |\n                              |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / | \\      |\n                              |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==12){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / | \\      |\n                    /         |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / | \\      |\n                    /         |\n                              |   \n  ==================  ");
 
                 }
                 if(fehleranzahl==13){
-                    Feld.setText ("\n\n\n\n\n\n\t\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / | \\      |\n                    /  \\      |\n                              |   \n  ==================  ");
+                    Feld.setText ("\n\n\n\n\n\t\t \n                    +-------+ \n                     |        |\n                    o        |\n                   / | \\      |\n                    /  \\      |\n                              |   \n  ==================  ");
 
                 }
             }
